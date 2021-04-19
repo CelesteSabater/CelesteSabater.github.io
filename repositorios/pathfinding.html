@@ -1,4 +1,4 @@
-<!DOCTYPE html SYSTEM "xhtml1-strict.dtd">
+<!DOCTYPE html SYSTEM "../xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"> 
     <head> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
@@ -13,7 +13,7 @@
 			font-family:genuine;
 			src: url('fonts/GENUINE.ttf');
 		}
-		ul li{
+		#partearriba ul li{
 			display: inline; 
 		}
 		a{
@@ -47,7 +47,7 @@
     </head> 
     <body>
         
-        <div style="border-bottom: 2px solid black;">
+        <div style="border-bottom: 2px solid black;" id="partearriba">
             <ul style="padding-top: 20px;">
                 <li style="margin-left: 13%; font-weight: bold; font-size:25px;"> <span style="color: red;">Celeste</span> Sabater Andrade</li>
             	<li style="margin-left: 10%;"> <a href="../index.html">Página principal</a></li>
@@ -73,6 +73,21 @@
     			
     			Este es uno de los proyectos de los que estoy más orgullosa.
     		</p>
+    		<p>Explicación del vídeo:</p>
+    		<ul style="font-family: Georgia; font-size: 16px;">
+    			<li>Los puntos rosados son los puntos de inicio y fin del algoritmo</li>
+    			<li>El conjunto de puntos azules es el camino más corto</li>
+    			<li>Los puntos rojos son muros, el algoritmo no puede pasar por ellos</li>
+    			<li>Los puntos verde claro son posiciones que el algoritmo ya ha probado si es eficiente pasar por ahí</li>
+    			<li>Los puntos verde oscuro son posiciones que el programa probaría en las próximas iteraciones</li>
+    		</ul>
+    		<br/>
+    		
+    		<video style="display: block;margin-left: auto;margin-right: auto;"
+    			src="../imagenes/TrailerPathfinder.mp4" width="900"  height="526" controls="controls" loop="loop">
+    			Tu navegador no admite el elemento <code>video</code>.
+    		</video>
+ 
     	</div>
     	
     </body>
