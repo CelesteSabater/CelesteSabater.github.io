@@ -1,10 +1,10 @@
-<!DOCTYPE html SYSTEM "xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"> 
-    <head> 
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
-        
-        <title>Celeste Sabater Andrade</title> 
-        <style type="text/css">
+	<head> 
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+		
+		<title>Celeste Sabater Andrade</title> 
+		<style type="text/css">
 		@font-face{
 			font-family:atfantique;
 			src: url('fonts/atfantbd.ttf');
@@ -13,7 +13,7 @@
 			font-family:genuine;
 			src: url('fonts/GENUINE.ttf');
 		}
-		ul li{
+		#partearriba ul li{
 			display: inline; 
 		}
 		a{
@@ -31,34 +31,64 @@
 		a:hover{
 			color:red;
 		}
+		#texto{
+			margin-left: auto;
+  			margin-right: auto;
+			width: 55%;
+			margin-top: 30px;
+		}
+		#texto p{
+			font-family: Georgia;
+			font-size: 16px;
+			padding: 10px;
+		}
 	</style>
-        
-    </head> 
-    <body>
-        
-        <div style="border-bottom: 2px solid black;">
-            <ul style="padding-top: 20px;">
-                <li style="margin-left: 13%; font-weight: bold; font-size:25px;"> <span style="color: red;">Celeste</span> Sabater Andrade</li>
-            	<li style="margin-left: 10%;"> <a href="../index.html">Página principal</a></li>
-                <li><a href="../myself.html">Sobre mí</a></li>
-            	<li id="actual"><a href="../repositorios.html">Repositorios</a></li>
-            	<li><a href="../cv.html">Mi CV</a></li>			
-            </ul>
-        </div>
-    	
-    	<div id="texto">
-    		<p>
-				
-    		</p>
-    		
-    		<br/>
-    		
-    		<video style="display: block;margin-left: auto;margin-right: auto;"
-    			src="../imagenes/TrailerYTdw.mp4" width="900"  height="526" controls="controls" loop="loop">
-    			Tu navegador no admite el elemento <code>video</code>.
-    		</video>
-    		
-    	</div>
-        
-    </body>
+		
+	</head> 
+	<body>
+		
+		<div style="border-bottom: 2px solid black;" id="partearriba">
+			<ul style="padding-top: 20px;">
+				<li style="margin-left: 13%; font-weight: bold; font-size:25px;"> <span style="color: red;">Celeste</span> Sabater Andrade</li>
+				<li style="margin-left: 10%;"> <a href="../index.html">Página principal</a></li>
+				<li><a href="../myself.html">Sobre mí</a></li>
+				<li id="actual"><a href="../repositorios.html">Repositorios</a></li>
+				<li><a href="../cv.html">Mi CV</a></li>			
+			</ul>
+		</div>
+		
+		<div id="texto">
+			<p>
+				Este proyecto nace tras la necesidad de descargar vídeos y música de forma eficiente,
+				vi la necesidad de esta app cuando estaba desarrollando una IA que quería que fuera capaz de detectar el género musical de una
+				canción y para ello necesitaba una gran cantidad de canciones para entrenar a la IA. <br/>
+				El proyecto de la IA al que hago referencia sigue en desarrollo y espero poder lanzarlo dentro de poco.
+			</p>
+
+			<br/>
+			
+			<p style="width: 55%;
+				font-family: Georgia;
+				font-size: 16px;
+				padding-left: 20px;">
+				Link al proyecto: <a rel="external" href="https://github.com/CelesteSabater/YouTube-Downloader" 
+					style="	text-decoration: underline;
+					color: blue;
+					font-style: italic;
+					font-family: Georgia;
+					font-size: 16px;
+					padding: 0;
+					margin: 0;"
+					>link</a>
+			</p>
+			
+			<video style="display: block;margin-left: auto;margin-right: auto;"
+				src="../imagenes/TrailerYTdw.mp4" width="900"  height="526" controls="controls" loop="loop">
+				Tu navegador no admite el elemento <code>video</code>.
+			</video>
+			
+		</div>
+		
+	</body>
+	
 </html>

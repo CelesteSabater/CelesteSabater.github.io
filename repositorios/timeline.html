@@ -1,4 +1,4 @@
-<!DOCTYPE html SYSTEM "xhtml1-strict.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es"> 
     <head> 
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
@@ -31,6 +31,24 @@
 		a:hover{
 			color:red;
 		}
+		#texto{
+			margin-left: auto;
+  			margin-right: auto;
+			width: 55%;
+			margin-top: 30px;
+		}
+		#texto p{
+			font-family: Georgia;
+			font-size: 16px;
+			padding: 10px;
+		}
+		.photo
+		{
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		}
+
 	</style>
         
     </head> 
@@ -45,6 +63,40 @@
             	<li><a href="../cv.html">Mi CV</a></li>			
             </ul>
         </div>
+        
+    	<div id="texto">
+    		<p>
+				Timeline es un juego de mesa relativamente sencillo que sus normas las puedes encontrar
+    			<a rel="external" href="https://juegosdemesayrol.com/blog/time-line/" 
+    				style="	text-decoration: underline;
+    				color: blue;
+    				font-style: italic;
+    				font-family: Georgia;
+    				font-size: 16px;
+    				padding: 0;
+    				margin: 0;"
+    				>aquí</a>.<br/>
+    			Realmente aquí tengo poco que contar, he hecho el juego Timeline en Python, ya está.
+    		</p>
+    		
+    		<p style="width: 55%;
+    			font-family: Georgia;
+    			font-size: 16px;
+    			padding-left: 20px;">
+    			Link al proyecto: <a rel="external" href="https://github.com/CelesteSabater/Timeline" 
+    				style="	text-decoration: underline;
+    				color: blue;
+    				font-style: italic;
+    				font-family: Georgia;
+    				font-size: 16px;
+    				padding: 0;
+    				margin: 0;"
+    				>link</a>
+    			<br/>
+    			
+    		</p>	
+    		<img class="photo" src="../imagenes/timeline.PNG" alt="Foto demostrativa del juego Timeline"/>	
+    	</div>
         
     </body>
 </html>
